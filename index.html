@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AWX GYM</title>
-</head> 
+</head>
 <body>
     <header>
         <h1>AWX GYM</h1>
@@ -17,6 +17,7 @@
         </nav>
     </header>
 
+
 <main>
     <section id="home">
         <div class="hero">
@@ -26,6 +27,7 @@
             <img src="imagem/academia.png" alt="Imagem da Academia" style="width:100%; height:auto;">
         </div>
     </section>
+
 
     <section id="services">
         <div class="services">
@@ -39,36 +41,151 @@
         </div>
     </section>
 
+
+    <section id="prefer">
+        <div class="prefer">
+            <h2>Suas Prefêrencias</h2>
+            <p>Na <strong>AWX GYM,</strong> o nosso objetivo é adaptar o treino ao que você gosta, respeitando seu ritmo e ajudando você a alcançar seus resultados com saúde e motivação.</p>
+            <p><strong>Por isso, faça as suas escolhas:</p></strong>
+               <p>1. Qual é o seu principal objetivo?</p>
+             <form>
+              <input type="radio" id="obj1" name="objetivo">
+              <label for="obj1">Ganhar massa muscular</label><br>
+              <input type="radio" id="obj2" name="objetivo">
+              <label for="obj2">Perder peso</label><br>
+              <input type="radio" id="obj3" name="objetivo">
+              <label for="obj3">Melhorar o condicionamento físico</label><br>
+              <input type="radio" id="obj4" name="objetivo">
+              <label for="obj4">Definir o corpo</label><br>
+              <input type="radio" id="obj5" name="objetivo">
+              <label for="obj5">Aumentar a força</label><br>
+              <input type="radio" id="obj6" name="objetivo">
+              <label for="obj6">Melhorar a saúde e qualidade de vida</label>
+            </form>
+
+              <p>2. Qual é o seu nível de experiência com treinos?</p>
+            <form>
+             <input type="radio" id="nivel1" name="nivel">
+             <label for="nivel1">Iniciante (nunca treinei)</label><br>
+             <input type="radio" id="nivel2" name="nivel">
+             <label for="nivel2">Básico (já treinei algumas vezes)</label><br>
+             <input type="radio" id="nivel3" name="nivel">
+             <label for="nivel3">Intermediário</label><br>
+             <input type="radio" id="nivel4" name="nivel">
+             <label for="nivel4">Avançado</label>
+            </form>
+
+             <p>3. Quantas vezes por semana você pretende treinar?</p>
+            <form>
+             <input type="radio" id="freq1" name="frequencia">
+             <label for="freq1">1 a 2 vezes</label><br>
+             <input type="radio" id="freq2" name="frequencia">
+             <label for="freq2">3 a 4 vezes</label><br>
+             <input type="radio" id="freq3" name="frequencia">
+             <label for="freq3">5 ou mais vezes</label>
+           </form>
+
+             <p>4. Qual tipo de treino você prefere?</p>
+            <form>
+             <input type="radio" id="treino1" name="tipoTreino">
+             <label for="treino1">Musculação</label><br>
+             <input type="radio" id="treino2" name="tipoTreino">
+             <label for="treino2">Funcional</label><br>
+             <input type="radio" id="treino3" name="tipoTreino">
+             <label for="treino3">Cardio (corrida, bicicleta, etc.)</label><br>
+             <input type="radio" id="treino4" name="tipoTreino">
+             <label for="treino4">Treino misto</label>
+           </form>
+
+             <p>5. Você gostaria de acompanhamento profissional?</p>
+           <form>
+             <input type="radio" id="acomp1" name="acompanhamento">
+             <label for="acomp1">Personal Trainer</label><br>
+             <input type="radio" id="acomp2" name="acompanhamento">
+             <label for="acomp2">Nutricionista</label><br>
+             <input type="radio" id="acomp3" name="acompanhamento">
+             <label for="acomp3">Ambos</label><br>
+             <input type="radio" id="acomp4" name="acompanhamento">
+             <label for="acomp4">Apenas treinar por conta própria</label>
+           </form>
+
+
+             <p>6. Qual horário você prefere treinar?</p>
+           <form>
+             <input type="radio" id="hora1" name="horario">
+             <label for="hora1">Manhã</label><br>
+             <input type="radio" id="hora2" name="horario">
+             <label for="hora2">Tarde</label><br>
+             <input type="radio" id="hora3" name="horario">
+             <label for="hora3">Noite</label>
+           </form>
+
+             <p>7. Qual é sua maior dificuldade com exercícios?</p>
+           <form>
+             <input type="radio" id="dif1" name="dificuldade">
+             <label for="dif1">Falta de tempo</label><br>
+             <input type="radio" id="dif2" name="dificuldade">
+             <label for="dif2">Falta de motivação</label><br>
+             <input type="radio" id="dif3" name="dificuldade">
+             <label for="dif3">Não sabe como treinar</label><br>
+             <input type="radio" id="dif4" name="dificuldade">
+             <label for="dif4">Manter consistência</label>
+           </form><br>
+           <button onclick="alert('Informações enviadas com sucesso!')">Confirmar</button>
+        </div>
+    </section>
+
      <section id="testimonials">
         <div class="testimonials">
             <h2>Depoimentos</h2>
-            <p>"A AWX GYM mudou minha vida! Os treinadores são incríveis e o ambiente é super acolhedor." <strong>- Maria S.</strong></p>
-            <p>"Eu nunca me senti tão motivado a ir à academia. A AWX GYM é o melhor lugar para treinar!" <strong>- João P.</strong></p>
+            <p>"A AWX GYM mudou minha vida! Os treinadores são incríveis e o ambiente é super acolhedor." <strong><br>- Maria S.</strong></p>
+            <p>"Recomendo a AWX GYM para todos que querem alcançar seus objetivos de fitness de forma saudável e divertida!" <strong><br>- João P.</strong></p>
         </div>
     </section>
-    
+   
      <section id="video-promo">
        <h2>Veja Nossa Energia</h2>
        <iframe src="https://www.youtube.com/embed/VbmBhlGTndQ"
-         title="Vídeo Promocional da AWX GYM" 
-         width="560" 
-         height="315" 
-         frameborder="0" 
+         title="Vídeo Promocional da AWX GYM"
+         width="560"
+         height="315"
+         frameborder="0"
          allowfullscreen>
        </iframe>
      </section>
+   
+    <section id="forms">
+        <div class="forms">
+            <h2>Formulário: </h2>
+            <label for="fname">Seu nome:</label><br>
+            <input type="text" id="fname" name="fname" value="João"><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Silva"><br><br>
+            <label for="email">Digite seu email:</label><br>
+            <input type="email" id="email" name="email" value="seunome@gmail.com"><br><br>
+            <label for="data">Agende sua consulta online:</label><br>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
+        </div>
+    </section>  
 
-    <section id="contact">
+
+     <section id="contact">
         <div class="contact-info">
             <h2>Contatos</h2>
             <p>Email: awxgym@gmail.com</p>
             <p>Telefone: (11) 1234-5678</p>
             <p>Endereço: Rua São Rafael, 123 - São Paulo, SP</p>
         </div>
-    </section>  
+    </section>
+
+
 </main>
     <footer>
         <p>&copy; 2026 AWX GYM. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>    
+
+
